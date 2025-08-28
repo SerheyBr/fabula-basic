@@ -1,0 +1,39 @@
+@use "variables" as *;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Simpler Pro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  background: #fbf5ff;
+  color: $black-text;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.title-section {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 110%;
+  text-align: center;
+  color: $black-text;
+}
+
+.section {
+  margin-bottom: 120px;
+}

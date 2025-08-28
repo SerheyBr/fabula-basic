@@ -1,0 +1,117 @@
+@use "../base/variables" as *;
+
+.section-testimonial {
+  &__wrapper {
+  }
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__box {
+    backdrop-filter: blur(53.900001525878906px);
+    box-shadow: 0 4px 43px 0 rgba(0, 0, 0, 0.04);
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 50px;
+    max-width: 830px;
+    width: 100%;
+    padding: 60px 0 36px 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  &__quotes-top {
+    position: absolute;
+    top: -38px;
+    right: 48px;
+  }
+
+  &__quotes-bottom {
+    position: absolute;
+    bottom: -32px;
+    left: 50px;
+  }
+}
+
+.swiper {
+}
+.my-slider {
+  width: 550px;
+
+  &__slide {
+  }
+
+  &__title {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 122%;
+    text-align: center;
+    color: $black-text;
+    margin-bottom: 18px;
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 122%;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 122%;
+    text-align: center;
+  }
+
+  &__pagination {
+    text-align: center;
+  }
+
+  &__button-prev {
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $violet;
+    border-radius: 100%;
+  }
+
+  &__button-next {
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $violet;
+    border-radius: 100%;
+  }
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+
+.my-slider__pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background-color: #e2cbfd;
+  transition: all 0.3s;
+}
+
+.my-slider__pagination .swiper-pagination-bullet-active {
+  background-color: $violet;
+  width: 36px;
+  border-radius: 250px;
+}

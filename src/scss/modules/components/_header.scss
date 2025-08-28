@@ -1,0 +1,21 @@
+@use "../base/variables" as *;
+
+// header
+.header {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 0;
+  }
+
+  &__logo {
+  }
+
+  &__phone {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 122%;
+    color: $violet;
+  }
+}

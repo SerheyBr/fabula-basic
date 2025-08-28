@@ -1,0 +1,25 @@
+@use "../base/variables" as *;
+
+// footer
+.footer {
+  padding: 40px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  &__cop {
+  }
+
+  &__list {
+    display: flex;
+    gap: 10px;
+    li {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
