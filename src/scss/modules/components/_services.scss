@@ -52,4 +52,15 @@
     text-align: center;
     max-width: 222px;
   }
+
+  @media (max-width: 1024px) {
+    &__title {
+      margin-bottom: 40px;
+    }
+
+    &__columns {
+      gap: 20px;
+      width: 100%;
+    }
+  }
 }

@@ -54,4 +54,38 @@
     bottom: 60px;
     left: -215px;
   }
+  @media (max-width: 1024px) {
+    &__wrapper {
+      padding: 70px 0;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__subtitle {
+      font-size: 28px;
+      margin-bottom: 17px;
+    }
+
+    &__box {
+      width: 406px;
+    }
+
+    &__img-main {
+      transform: scale(1.2);
+    }
+
+    &__img-top {
+      top: -130px;
+      right: -190px;
+      height: 250px;
+    }
+
+    &__img-bottom {
+      bottom: 70px;
+      left: -150px;
+      height: 200px;
+    }
+  }
 }

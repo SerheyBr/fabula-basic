@@ -1,6 +1,19 @@
 @use "../base/variables" as *;
 
 .section-testimonial {
+  position: relative;
+  user-select: none;
+  &__blob-left {
+    position: absolute;
+    top: -900px;
+    left: -1500px;
+  }
+  &__blob-right {
+    position: absolute;
+    top: 300px;
+    right: -80px;
+    transform: scale(0.6);
+  }
   &__wrapper {
   }
 
@@ -30,6 +43,23 @@
     position: absolute;
     bottom: -32px;
     left: 50px;
+  }
+  @media (max-width: 1024px) {
+    &__title {
+      margin-bottom: 40px;
+    }
+
+    &__box {
+      max-width: 690px;
+    }
+
+    &__quotes-top {
+      right: -20px;
+    }
+
+    &__quotes-bottom {
+      left: -20px;
+    }
   }
 }
 
@@ -81,6 +111,10 @@
     align-items: center;
     background-color: $violet;
     border-radius: 100%;
+    cursor: pointer;
+    svg {
+      margin-right: 2px;
+    }
   }
 
   &__button-next {
@@ -95,6 +129,24 @@
     align-items: center;
     background-color: $violet;
     border-radius: 100%;
+    cursor: pointer;
+    svg {
+      margin-left: 2px;
+    }
+  }
+  @media (max-width: 1024px) {
+    &__title {
+      font-size: 28px;
+      margin-bottom: 33px;
+    }
+
+    &__button-prev {
+      left: -85px;
+    }
+
+    &__button-next {
+      right: -85px;
+    }
   }
 }
 .swiper-wrapper {
