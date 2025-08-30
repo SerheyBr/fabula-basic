@@ -751,11 +751,6 @@ main {
   min-width: 0;
   flex: 1 1 auto;
 }
-.section-why-us__img-big--mobill {
-  min-width: 0;
-  flex: 1 1 auto;
-  display: none;
-}
 .section-why-us__rows {
   width: 400px;
   flex-shrink: 0;
@@ -803,12 +798,6 @@ main {
   .section-why-us__row-wrapper img {
     width: 50px;
     height: 50px;
-  }
-  .section-why-us__img-big {
-    display: none;
-  }
-  .section-why-us__img-big--mobill {
-    display: block;
   }
 }
 @media (max-width: 768px) {
